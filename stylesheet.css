@@ -44,7 +44,7 @@ html, body, div {
 #nav-3 { margin-left: 90px; }
 #nav-4 { margin-left: 90px; }
 
-.main {
+.div-main {
   position: absolute;
   top: 80px;
   width: 100%;
@@ -53,12 +53,12 @@ html, body, div {
   border-width: 5px;*/
 }
 
-.content {
+#div-content {
   position: relative;
   width: 800px; /*same as navbar*/
   height: 550px;
   margin: 0px auto;
-  background-color: yellow;
+  
   /*debug*/
   border-style: solid;
   border-width: 1px;
