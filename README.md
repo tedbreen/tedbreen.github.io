@@ -1,4 +1,4 @@
 ## My personal website.
 
-* No domain name yet
-* No hosting service yet (use AWS)
+* Hosted on github pages for now: http://tedbreen.github.io
+* No custom URL assigned yet
