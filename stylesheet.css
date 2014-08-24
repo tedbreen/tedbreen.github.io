@@ -35,6 +35,7 @@ html, body, div {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-weight: bold;
   color: #FFFFFF;
+  cursor: pointer;
   /*debug*/
 /*  border: 1px;
   border-style: solid;
@@ -61,8 +62,6 @@ html, body, div {
   width: 800px;
   top: 20px;
   margin: 0px auto;
-  /*text-align: center;*/
-  /*font-size: 3em;*/
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   /*debug*/
   border-style: dashed;
@@ -71,17 +70,10 @@ html, body, div {
 }
 
 #div-home div {
-  display: inline-block;
   border-style: solid;
   border-width: 1px;
 }
 
-#photo img {
+img {;
   border-radius: 90px;
-}
-
-#about-text {
-  position: absolute;
-  top: 80px;
-  margin-left: 20px;
 }

@@ -1,6 +1,8 @@
 var aboutContent = "" +
-  "<div id='photo'>" + "<img src='github_avatar.png'>" + "</div>" +
-  "<div id='about-text'>" +
-  "Formerly an electrical engineer in regulatory compliance" +
-  "<br>Currently a software engineer in web development" +
+  "<div id='avatar'>" +
+    "<img src='github_avatar.png'>" +
+  "</div>" +
+  "<div id='text'>" +
+    "<p>Formerly an electrical engineer in regulatory compliance</p>" +
+    "<p>Currently a software engineer in web development</p>" +
   "</div>";

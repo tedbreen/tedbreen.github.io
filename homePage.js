@@ -1,5 +1,8 @@
 var homeContent = "" +
-  "<div id='home-text'>" +
-  "Welcome to my funky webpage!" +
-  "<br>This is under some <strong>serious</strong> construction!" +
+  "<div id='avatar'>" +
+    "<img src='github_avatar.png'>" +
+  "</div>" +
+  "<div id='text'>" +
+    "<p>Edward Breen</p>" +
+    "<p>Web Developer</p>" +
   "</div>";
