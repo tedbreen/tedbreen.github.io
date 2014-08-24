@@ -6,19 +6,20 @@ var divNav4 = document.getElementById("nav-4");
 var currentDiv = document.getElementById("div-home");
 divNav1.style.textDecoration = "underline";
 var currentNav = divNav1;
+currentDiv.innerHTML = homeContent;
 
-var homeContent = document.createTextNode("Great stuff here");
-var aboutContent = document.createTextNode("My bio here");
-var portfolioContent = document.createTextNode("Look at these");
-var contactContent = document.createTextNode("Call me, babe");
+// var homeContent = document.createTextNode("Great stuff here");
+// var aboutContent = document.createTextNode("My bio here");
+// var portfolioContent = document.createTextNode("Look at these");
+// var contactContent = document.createTextNode("Call me, babe");
 
-currentDiv.appendChild(homeContent);
-var currentContent = homeContent;
+// currentDiv.appendChild(homeContent);
+// var currentContent = homeContent;
 
 var navDivs = [ divNav1, divNav2, divNav3, divNav4 ];
-var navContents = [
-  homeContent, aboutContent, portfolioContent, contactContent
-];
+// var navContents = [
+//   homeContent, aboutContent, portfolioContent, contactContent
+// ];
 
 var navbarColors = function(el) {
   el.addEventListener('mouseenter', function () {
@@ -29,18 +30,32 @@ var navbarColors = function(el) {
   }, false);
 };
 
-var changeContent = function(el, content) {
-  el.addEventListener('click', function () {
-    currentNav.style.textDecoration = "";
-    this.style.textDecoration = "underline";
-    currentNav = this;
-    currentDiv.removeChild(currentContent);
-    currentDiv.appendChild(content);
-    currentContent = content;
-  }, false);
-}
+// var changeContent = function(el, content) {
+//   el.addEventListener('click', function () {
+//     currentNav.style.textDecoration = "";
+//     this.style.textDecoration = "underline";
+//     currentNav = this;
+//     currentDiv.removeChild(currentContent);
+//     currentDiv.appendChild(content);
+//     currentContent = content;
+//   }, false);
+// };
 
 for (var i = 0; i < navDivs.length; i++) {
   navbarColors( navDivs[i] );
-  changeContent( navDivs[i], navContents[i] );
+  // changeContent( navDivs[i], navContents[i] );
 }
+
+divNav1.addEventListener('click', function () {
+  currentNav.style.textDecoration = "";
+  this.style.textDecoration = "underline";
+  currentNav = this;
+  currentDiv.innerHTML = homeContent;
+}, false);
+
+divNav2.addEventListener('click', function () {
+  currentNav.style.textDecoration = "";
+  this.style.textDecoration = "underline";
+  currentNav = this;
+  currentDiv.innerHTML = aboutContent;
+}, false);
