@@ -3,36 +3,65 @@ var divNav2 = document.getElementById("nav-2");
 var divNav3 = document.getElementById("nav-3");
 var divNav4 = document.getElementById("nav-4");
 
-var divHome = document.getElementById("div-home");
-var parentDiv = divHome.parentNode;
-var divAbout = document.createElement("div");
-divAbout.setAttribute("id", "div-about");
-var divPortfolio = document.createElement("div");
-divPortfolio.setAttribute("id", "div-portfolio");
-var divContact = document.createElement("div");
-divContact.setAttribute("id", "div-contact");
+var currentDiv = document.getElementById("div-home");
 
-var divHomeContent = divHome.innerText;
-var divAboutContent = document.createTextNode("My bio here");
-var divPortfolioContent = document.createTextNode("Look at these");
-var divContactContent = document.createTextNode("Call me babe");
+var homeContent = document.createTextNode("Great stuff here");
+var aboutContent = document.createTextNode("My bio here");
+var portfolioContent = document.createTextNode("Look at these");
+var contactContent = document.createTextNode("Call me, babe");
 
-var navDivs = [divNav1, divNav2, divNav3, divNav4];
-var contents = [
-  divHomeContent, divAboutContent, divPortfolioContent, divContactContent
+currentDiv.appendChild(homeContent);
+var currentContent = homeContent;
+
+var navDivs = [ divNav1, divNav2, divNav3, divNav4 ];
+var navContents = [
+  homeContent, aboutContent, portfolioContent, contactContent
 ];
 
-var colors = function(el) {
+var navbarColors = function(el) {
   el.addEventListener('mouseenter', function () {
     this.style.color = "yellow";
   }, false);
   el.addEventListener('mouseleave', function () {
     this.style.color = "white";
   }, false);
-  // trying to add click event to change divs
-  // el.addEventListener('click', function() {
-  //   this.appendChild(contents[i]);
-  // }, false);
 };
 
-for (var i = 0; i < navDivs.length; i++) { colors(navDivs[i]) }
+var changeContent = function(el, content) {
+  el.addEventListener('click', function () {
+    currentDiv.removeChild(currentContent);
+    currentDiv.appendChild(content);
+    currentContent = content;
+  }, false);
+}
+
+for (var i = 0; i < navDivs.length; i++) {
+  navbarColors( navDivs[i] );
+  changeContent( navDivs[i], navContents[i] );
+}
+
+
+
+// divNav1.addEventListener('click', function () {
+//   currentDiv.removeChild(currentContent);
+//   currentDiv.appendChild(homeContent);
+//   currentContent = homeContent;
+// }, false);
+
+// divNav2.addEventListener('click', function () {
+//   currentDiv.removeChild(currentContent);
+//   currentDiv.appendChild(aboutContent);
+//   currentContent = aboutContent;
+// }, false);
+
+// divNav3.addEventListener('click', function () {
+//   currentDiv.removeChild(currentContent);
+//   currentDiv.appendChild(portfolioContent);
+//   currentContent = portfolioContent;
+// }, false);
+
+// divNav4.addEventListener('click', function () {
+//   currentDiv.removeChild(currentContent);
+//   currentDiv.appendChild(contactContent);
+//   currentContent = contactContent;
+// }, false);
