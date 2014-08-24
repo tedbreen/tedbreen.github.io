@@ -4,6 +4,8 @@ var divNav3 = document.getElementById("nav-3");
 var divNav4 = document.getElementById("nav-4");
 
 var currentDiv = document.getElementById("div-home");
+divNav1.style.textDecoration = "underline";
+var currentNav = divNav1;
 
 var homeContent = document.createTextNode("Great stuff here");
 var aboutContent = document.createTextNode("My bio here");
@@ -29,6 +31,9 @@ var navbarColors = function(el) {
 
 var changeContent = function(el, content) {
   el.addEventListener('click', function () {
+    currentNav.style.textDecoration = "";
+    this.style.textDecoration = "underline";
+    currentNav = this;
     currentDiv.removeChild(currentContent);
     currentDiv.appendChild(content);
     currentContent = content;
