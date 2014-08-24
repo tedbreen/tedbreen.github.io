@@ -9,6 +9,7 @@ html, body, div {
 .navbar {
   position: absolute;
 	width: 100%;
+  min-width: 800px;
   height: 50px;
   background-color: #660099;
   /*debug*/
@@ -58,7 +59,6 @@ html, body, div {
   position: relative;
   width: 90%;
   top: 200px;
-  /*height: 550px;*/
   margin: 0px auto;
   text-align: center;
   font-size: 3em;
