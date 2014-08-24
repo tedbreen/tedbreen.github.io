@@ -39,29 +39,3 @@ for (var i = 0; i < navDivs.length; i++) {
   navbarColors( navDivs[i] );
   changeContent( navDivs[i], navContents[i] );
 }
-
-
-
-// divNav1.addEventListener('click', function () {
-//   currentDiv.removeChild(currentContent);
-//   currentDiv.appendChild(homeContent);
-//   currentContent = homeContent;
-// }, false);
-
-// divNav2.addEventListener('click', function () {
-//   currentDiv.removeChild(currentContent);
-//   currentDiv.appendChild(aboutContent);
-//   currentContent = aboutContent;
-// }, false);
-
-// divNav3.addEventListener('click', function () {
-//   currentDiv.removeChild(currentContent);
-//   currentDiv.appendChild(portfolioContent);
-//   currentContent = portfolioContent;
-// }, false);
-
-// divNav4.addEventListener('click', function () {
-//   currentDiv.removeChild(currentContent);
-//   currentDiv.appendChild(contactContent);
-//   currentContent = contactContent;
-// }, false);
