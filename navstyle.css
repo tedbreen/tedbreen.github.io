@@ -1,0 +1,39 @@
+.navbar {
+  width: 100%;
+  min-width: 800px;
+  height: 50px;
+  background-color: #660099;
+  /*debug*/
+/*  border: 3px;
+  border-style: dashed;*/
+}
+
+.nav-center {
+  position: relative;
+  width: 800px;
+  height: 50px;
+  margin: 0px auto;
+  /*debug*/
+/*  border: 1px;
+  border-style: solid;*/
+}
+
+.nav-el {
+  display: inline-block;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 1.75em;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+  /*debug*/
+/*  border: 1px;
+  border-style: solid;
+  border-color: red;*/
+}
+
+#nav-1 { margin-left: 40px; }
+#nav-2 { margin-left: 90px; }
+#nav-3 { margin-left: 90px; }
+#nav-4 { margin-left: 90px; }

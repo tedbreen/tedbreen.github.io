@@ -6,74 +6,47 @@ html, body, div {
   font: inherit;
 }
 
-.navbar {
-  position: absolute;
-  width: 100%;
-  min-width: 800px;
-  height: 50px;
-  background-color: #660099;
-  /*debug*/
-/*  border: 1px;
-  border-style: solid;*/
-}
-
-.nav-center {
-  position: relative;
+#main {
   width: 800px;
-  height: 50px;
-  margin: 0px auto;
-  /*debug*/
-/*  border: 1px;
-  border-style: solid;*/
-}
-
-.nav-el {
-  display: inline-block;
-  height: 30px;
-  margin-top: 10px;
-  font-size: 1.75em;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-weight: bold;
-  color: #FFFFFF;
-  cursor: pointer;
-  /*debug*/
-/*  border: 1px;
-  border-style: solid;
-  border-color: red;*/
-}
-
-#nav-1 { margin-left: 40px; }
-#nav-2 { margin-left: 90px; }
-#nav-3 { margin-left: 90px; }
-#nav-4 { margin-left: 90px; }
-
-.div-main {
-  position: absolute;
-  top: 50px;
-  width: 100%;
-  min-width: 800px;
-  /*debug*/
-/*  border-style: dashed;
-  border-width: 3px;*/
-}
-
-#div-home {
-  position: relative;
-  width: 800px;
-  top: 20px;
-  margin: 0px auto;
+  margin: 50px auto;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   /*debug*/
-  border-style: dashed;
-  border-width: 1px;
-  border-color: blue;
-}
-
-#div-home div {
-  border-style: solid;
-  border-width: 1px;
+/*  border-style: solid;
+  border-width: 2px;*/
 }
 
 img {;
-  border-radius: 90px;
+  border-radius: 30px;
+}
+
+#avatar {
+  position: absolute;
+  width: 200px;
+  margin-left: 100px;
+  text-align: center;
+  /*DEBUG*/
+/*  border-style: dashed;
+  border-width: 1px;*/
+}
+
+#home-text {
+  position: relative;
+  width: 400px;
+  left: 300px;
+  top: 30px;
+  margin-left: 30px;
+  /*DEBUG*/
+/*  border-style: dashed;
+  border-width: 1px;*/
+}
+
+#about-text {
+  position: relative;
+  width: 400px;
+  left: 300px;
+  top: 30px;
+  margin-left: 30px;
+  /*DEBUG*/
+/*  border-style: dashed;
+  border-width: 1px;*/
 }

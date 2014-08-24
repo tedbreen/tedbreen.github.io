@@ -3,7 +3,7 @@ var divNav2 = document.getElementById("nav-2");
 var divNav3 = document.getElementById("nav-3");
 var divNav4 = document.getElementById("nav-4");
 
-var currentDiv = document.getElementById("div-home");
+var currentDiv = document.getElementById("main");
 divNav1.style.textDecoration = "underline";
 var currentNav = divNav1;
 currentDiv.innerHTML = homeContent;
