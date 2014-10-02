@@ -1,52 +1,107 @@
-html, body, div {
+html, body, ul, li, div {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
-#main {
-  width: 800px;
-  margin: 50px auto;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  /*debug*/
-/*  border-style: solid;
-  border-width: 2px;*/
-}
-
-img {;
-  border-radius: 30px;
-}
-
-#avatar {
-  position: absolute;
-  width: 200px;
-  margin-left: 100px;
+#navbar {
+  background-color: white;
+  width: 900px;
+  margin: 0px auto;
   text-align: center;
-  /*DEBUG*/
-/*  border-style: dashed;
-  border-width: 1px;*/
+  padding-bottom: 20px;
 }
-
-#home-text {
-  position: relative;
-  width: 400px;
-  left: 300px;
-  top: 30px;
-  margin-left: 30px;
-  /*DEBUG*/
-/*  border-style: dashed;
-  border-width: 1px;*/
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
 }
-
-#about-text {
-  position: relative;
-  width: 400px;
-  left: 300px;
-  top: 30px;
-  margin-left: 30px;
-  /*DEBUG*/
-/*  border-style: dashed;
-  border-width: 1px;*/
+li {
+  display: inline-block;
+  width: 175px;
+  height: 50px;
+  margin: 0px 10px 10px;
+  text-align: center;
+  background-color: #428bca;
+  border-radius: 10px;
+}
+a {
+  display: block;
+  height: 47px;
+  padding-top: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: yellow;
+}
+#home {
+  border: 1px solid red; 
+  width: 900px;
+  height: 600px;
+  margin: 0px auto;
+}
+#name {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  -webkit-animation: nameFadeIn 4s;
+}
+@-webkit-keyframes nameFadeIn {
+  0% { opacity: 0; }
+  /*25% { opacity: 0; }*/
+  50% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+#title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  -webkit-animation: titleFadeIn 4s;
+}
+@-webkit-keyframes titleFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0;}
+  /*50% { opacity: 0; }*/
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+#location {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  -webkit-animation: locFadeIn 4s;
+}
+@-webkit-keyframes locFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0; }
+  50% { opacity: 0;}
+  /*75% { opacity: 0; }*/
+  100% { opacity: 1; }
+}
+#about {
+  border: 1px solid blue; 
+  width: 900px;
+  height: 600px;
+  margin: 0px auto;
+}
+#portfolio {
+  border: 1px solid red; 
+  width: 900px;
+  height: 600px;
+  margin: 0px auto;
+}
+#contact {
+  border: 1px solid blue; 
+  width: 900px;
+  height: 600px;
+  margin: 0px auto;
 }
