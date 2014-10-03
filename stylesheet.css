@@ -1,4 +1,4 @@
-html, body, ul, li, div {
+html, body, ul, li, div, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -9,13 +9,13 @@ html, body, ul, li, div {
   margin: 0px auto;
   text-align: center;
 }
-ul {
+#navbar > ul {
   list-style-type: none;
   font-size: 20px;
   font-weight: bold;
   padding: 15px 0px;
 }
-li {
+#navbar > ul > li {
   display: inline-block;
   text-align: center;
 }
@@ -63,9 +63,17 @@ a:hover {
   font-size: 70px;
   font-weight: bold;
   -webkit-animation: nameFadeIn 4s;
+  -moz-animation: nameFadeIn 4s;
 }
 @-webkit-keyframes nameFadeIn {
   0% { opacity: 0; }
+  /*25% { opacity: 0; }*/
+  50% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes nameFadeIn {
+    0% { opacity: 0; }
   /*25% { opacity: 0; }*/
   50% { opacity: 1; }
   75% { opacity: 1; }
@@ -80,8 +88,16 @@ a:hover {
   font-size: 50px;
   font-weight: bold;
   -webkit-animation: titleFadeIn 4s;
+  -moz-animation: titleFadeIn 4s;
 }
 @-webkit-keyframes titleFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0;}
+  /*50% { opacity: 0; }*/
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes titleFadeIn {
   0% { opacity: 0;}
   25% { opacity: 0;}
   /*50% { opacity: 0; }*/
@@ -97,6 +113,7 @@ a:hover {
   font-size: 50px;
   font-weight: bold;
   -webkit-animation: locFadeIn 4s;
+  -moz-animation: locFadeIn 4s;
 }
 @-webkit-keyframes locFadeIn {
   0% { opacity: 0;}
@@ -105,12 +122,47 @@ a:hover {
   /*75% { opacity: 0; }*/
   100% { opacity: 1; }
 }
+@-moz-keyframes locFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0; }
+  50% { opacity: 0;}
+  /*75% { opacity: 0; }*/
+  100% { opacity: 1; }
+}
 #about {
-  border: 1px solid blue; 
+  /*border: 1px solid black;*/
+  /*font-size: 14px;*/
   width: 900px;
-  height: 600px;
+  /*height: 600px;*/
   margin: 0px auto;
 }
+#blank-space {
+  width: 900px;
+  height: 50px;
+}
+#avatar {
+  /*border: 1px dashed blue;*/
+  width: 250px;
+  height: 250px;
+  padding-left: 25px;
+  float: left;
+}
+#summary {
+  /*border: 1px dashed red;*/
+  width: 600px;
+  height: 250px;
+  float: left;
+}
+#details {
+  /*border: 1px dashed black;*/
+  width: 850px;
+  height: 700px;
+  margin: 0px auto;
+}
+#details > ul {
+  padding-left: 30px;
+}
+
 #portfolio {
   border: 1px solid red; 
   width: 900px;

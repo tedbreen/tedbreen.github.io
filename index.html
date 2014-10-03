@@ -1,6 +1,7 @@
 <!DOCTYPE>
 <html>
 <head>
+  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
 </head>
@@ -13,17 +14,38 @@
   <div class="content" id="home">
     <img src="images/home-background.jpg">
     <div id="name">Edward Breen</div>
-    <div id="title">Web Developer</div>
+    <div id="title">Software Engineer</div>
     <div id="location">San Francisco</div>
   </div>
-  <div class="content" id="about">About section</div>
+  <div class="content" id="about">
+    <div id="blank-space"></div>
+    <div id="avatar"><img src="images/github_avatar.png" height="220" width="220"></div>
+    <div id="summary">
+      <p>I am an engineer in San Francisco and I am currenly looking for a full-time software developer position.  My knowledge and experience in software includes web development, object-oriented programming, algorithms, data structures.  I also have experience in engineering, problem-solving, teamwork, and customer-interaction from my years as an electrical engineer in the field of regulatory compliance.</p><br>
+      <p>Whether it is a front-end, back-end, or full-stack position, the most important thing to me is finding a position that offers an opportunity to write code and solve problems. I am always interested in learning new programming languages and tools as well.</p>
+    </div>
+    <div id="details">
+      <h2>Employment history</h2>
+      <p>Compliance Engineer II, MAR 2006 to MAY 2013</p>
+      <p>Curtis-Straus, a subsidiary of Bureau Veritas, Littleton, MA</p>
+      <p>Regulatory compliance testing laboratory for the electronics industry.</p>
+      <ul><li>Performed electromagnetic compatibility, electromagnetic interference, and intentional radio testing on new and existing products.  Completed projects in two days or less, barring unforeseen product and test failures.</li><li>Provided diagnosis and troubleshooting for failing products.  Consulted on design changes and modifications to achieve passing results.</li><li>Preferred engineer for Oracle and Motorola test projects.</li></ul>
+      <h2>Education</h2>
+      <p>University of Massachusetts-Amherst, Amherst, MA, SEP 1999 to DEC 2004</p>
+      <ul><li>Bachelor of Science in Electrical Engineering, February 2005</li><li>Coursework: Circuit Analysis, Electronics, Signals & Systems, Fields & Waves, Microwave Engineering, Multivariable Calculus, Linear Algebra, Differential Equations</li><li>Athletics:  Varsity member of cross-country and track teams.  Competed in NCAA Division 1 races.  Captain of cross-country team in senior season.</li></ul>
+    </div>
+  </div>
   <div class="content" id="portfolio">Portfolio section</div>
   <div class="content" id="contact">Contact section</div>
   <script type="text/javascript">
     $(document).ready( function() {
-      var homeDiv = document.getElementById("home");
-      homeDiv.style.display = "block";
-      currentDiv = homeDiv;
+      // var homeDiv = document.getElementById("home");
+      // homeDiv.style.display = "block";
+      // currentDiv = homeDiv;
+
+      // loading about page for debug/setup only
+      var aboutDiv = document.getElementById("about");
+      aboutDiv.style.display = "block";
     });
   </script>
   <script type="text/javascript" src="scripts/link_events.js"></script>
