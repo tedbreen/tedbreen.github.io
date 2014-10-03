@@ -1,4 +1,4 @@
-html, body, ul, li, div, p {
+html, body, ul, li, div {
   margin: 0;
   padding: 0;
   border: 0;
@@ -44,6 +44,9 @@ a:visited {
 }
 a:hover {
   color: yellow;
+}
+.content {
+  display: none;
 }
 #home {
   width: 900px;

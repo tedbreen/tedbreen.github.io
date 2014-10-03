@@ -7,7 +7,7 @@
 <body>
   <div id="navbar">
     <ul>
-      <li><a id="home-link" href="#home">HOME</a></li><li><a id="about-link" href="#about">ABOUT</a></li><li><a id="portfolio-link" href="#portfolio">PORTFOLIO</a></li><li><a id="contact-link" href="#contact">CONTACT</a></li>
+      <li><a id="home-link" href="#">HOME</a></li><li><a id="about-link" href="#">ABOUT</a></li><li><a id="portfolio-link" href="#">PORTFOLIO</a></li><li><a id="contact-link" href="#">CONTACT</a></li>
     </ul>
   </div>
   <div class="content" id="home">
@@ -19,6 +19,13 @@
   <div class="content" id="about">About section</div>
   <div class="content" id="portfolio">Portfolio section</div>
   <div class="content" id="contact">Contact section</div>
+  <script type="text/javascript">
+    $(document).ready( function() {
+      var homeDiv = document.getElementById("home");
+      homeDiv.style.display = "block";
+      currentDiv = homeDiv;
+    });
+  </script>
+  <script type="text/javascript" src="scripts/link_events.js"></script>
 </body>
-
 </html>
