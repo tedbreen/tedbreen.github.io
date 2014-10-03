@@ -1,55 +1,62 @@
-html, body, ul, li, div {
+html, body, ul, li, div, p {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #navbar {
-  background-color: white;
   width: 900px;
   margin: 0px auto;
   text-align: center;
-  padding-bottom: 20px;
 }
 ul {
   list-style-type: none;
   font-size: 20px;
   font-weight: bold;
-  padding-top: 10px;
+  padding: 15px 0px;
 }
 li {
   display: inline-block;
-  width: 175px;
-  height: 50px;
-  margin: 0px 10px 10px;
   text-align: center;
-  background-color: #428bca;
-  border-radius: 10px;
+}
+#home-link {
+  width: 65px;
+}
+#about-link {
+  width: 75px;
+}
+#portfolio-link {
+  width: 120px;
+}
+#contact-link {
+  width: 106px;
 }
 a {
   display: block;
-  height: 47px;
-  padding-top: 13px;
   text-decoration: none;
-  border-radius: 10px;
+  padding: 4px 12px;
 }
 a:link {
-  color: white;
+  color: #428bca;
 }
 a:visited {
-  color: white;
+  color: #428bca;
 }
 a:hover {
   color: yellow;
 }
 #home {
-  border: 1px solid red; 
   width: 900px;
   height: 600px;
   margin: 0px auto;
+  position: relative;
 }
 #name {
+  position: absolute;
+  top: 150px;
+  width: 100%;
   text-align: center;
+  color: white;
   font-size: 70px;
   font-weight: bold;
   -webkit-animation: nameFadeIn 4s;
@@ -62,7 +69,11 @@ a:hover {
   100% { opacity: 1; }
 }
 #title {
+  position: absolute;
+  top: 250px;
+  width: 100%;
   text-align: center;
+  color: white;
   font-size: 50px;
   font-weight: bold;
   -webkit-animation: titleFadeIn 4s;
@@ -75,7 +86,11 @@ a:hover {
   100% { opacity: 1; }
 }
 #location {
+  position: absolute;
+  top: 330px;
+  width: 100%;
   text-align: center;
+  color: white;
   font-size: 50px;
   font-weight: bold;
   -webkit-animation: locFadeIn 4s;
