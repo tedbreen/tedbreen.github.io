@@ -8,30 +8,30 @@
 <body>
   <div id="navbar">
     <ul>
-      <li><a id="home-link" href="#">HOME</a></li><li><a id="about-link" href="#">ABOUT</a></li><li><a id="portfolio-link" href="#">PORTFOLIO</a></li><li><a id="contact-link" href="#">CONTACT</a></li>
+      <li><a id="home-link" href="#">TED</a><li><a id="blank-link"></a></li></li><li><a id="about-link" href="#">ABOUT</a></li><li><a id="portfolio-link" href="#">PORTFOLIO</a></li><li><a id="contact-link" href="#">CONTACT</a></li>
     </ul>
   </div>
+  <div id="blank-space"></div>
   <div class="content" id="home">
     <img src="images/home-background.jpg">
-    <div id="name">Edward Breen</div>
+    <div id="name">Ted Breen</div>
     <div id="title">Software Engineer</div>
     <div id="location">San Francisco</div>
   </div>
   <div class="content" id="about">
-    <div id="blank-space"></div>
-    <div id="avatar"><img src="images/github_avatar.png" height="220" width="220"></div>
+    <h2>ABOUT ME</h2>
     <div id="summary">
-      <p>I am an engineer in San Francisco and I am currenly looking for a full-time software developer position.  My knowledge and experience in software includes web development, object-oriented programming, algorithms, data structures.  I also have experience in engineering, problem-solving, teamwork, and customer-interaction from my years as an electrical engineer in the field of regulatory compliance.</p><br>
-      <p>Whether it is a front-end, back-end, or full-stack position, the most important thing to me is finding a position that offers an opportunity to write code and solve problems. I am always interested in learning new programming languages and tools as well.</p>
+      <div id="summary-photo"></div>
+      <div id="summary-words"><p>I am an engineer in San Francisco and I am currenly looking for a full-time software developer position.  My knowledge and experience in software includes web development, object-oriented programming, algorithms, data structures.  I also have experience in engineering, problem-solving, teamwork, and customer-interaction from my years as an electrical engineer in the field of regulatory compliance.</p><br><p>I am interested in front-end, back-end, and full-stack positions!</p></div>
     </div>
-    <div id="details">
-      <h2>Employment history</h2>
-      <p>Compliance Engineer II, MAR 2006 to MAY 2013</p>
-      <p>Curtis-Straus, a subsidiary of Bureau Veritas, Littleton, MA</p>
-      <p>Regulatory compliance testing laboratory for the electronics industry.</p>
-      <ul><li>Performed electromagnetic compatibility, electromagnetic interference, and intentional radio testing on new and existing products.  Completed projects in two days or less, barring unforeseen product and test failures.</li><li>Provided diagnosis and troubleshooting for failing products.  Consulted on design changes and modifications to achieve passing results.</li><li>Preferred engineer for Oracle and Motorola test projects.</li></ul>
-      <h2>Education</h2>
-      <p>University of Massachusetts-Amherst, Amherst, MA, SEP 1999 to DEC 2004</p>
+    <div id="employment" class="details">
+      <h2>EMPLOYMENT HISTORY</h2>
+      <div id="emp-1"><strong>Compliance Engineer II at Curtis-Straus, Littleton, MA</strong></div><div id="emp-2"></div><div id="emp-3">March 2006 to May 2013</div>
+      <p><em>Regulatory compliance testing laboratory for the electronics industry.</em></p>
+      <ul><li>Performed electromagnetic compatibility, electromagnetic interference, and intentional radio testing on new and existing products.  Completed projects in two days or less, barring unforeseen product and test failures.</li><li>Provided diagnosis and troubleshooting for failing products.  Consulted on design changes and modifications to achieve passing results.</li><li>Preferred engineer for Oracle and Motorola test projects.</li></ul></div>
+    <div id="education" class="details">
+      <h2>EDUCATION</h2>
+      <div id="ed-1"><strong>University of Massachusetts-Amherst, Amherst, MA</strong></div><div id="ed-2"></div><div id="ed-3">September 1999 to December 2004</div>
       <ul><li>Bachelor of Science in Electrical Engineering, February 2005</li><li>Coursework: Circuit Analysis, Electronics, Signals & Systems, Fields & Waves, Microwave Engineering, Multivariable Calculus, Linear Algebra, Differential Equations</li><li>Athletics:  Varsity member of cross-country and track teams.  Competed in NCAA Division 1 races.  Captain of cross-country team in senior season.</li></ul>
     </div>
   </div>
@@ -39,13 +39,9 @@
   <div class="content" id="contact">Contact section</div>
   <script type="text/javascript">
     $(document).ready( function() {
-      // var homeDiv = document.getElementById("home");
-      // homeDiv.style.display = "block";
-      // currentDiv = homeDiv;
-
-      // loading about page for debug/setup only
-      var aboutDiv = document.getElementById("about");
-      aboutDiv.style.display = "block";
+      var homeDiv = document.getElementById("home");
+      homeDiv.style.display = "block";
+      currentDiv = homeDiv;
     });
   </script>
   <script type="text/javascript" src="scripts/link_events.js"></script>
