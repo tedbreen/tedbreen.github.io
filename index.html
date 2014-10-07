@@ -8,7 +8,7 @@
 <body>
   <div id="navbar">
     <ul>
-      <li><a id="home-link" href="#">TED</a><li><a id="blank-link"></a></li></li><li><a id="about-link" href="#">ABOUT</a></li><li><a id="portfolio-link" href="#">PORTFOLIO</a></li><li><a id="contact-link" href="#">CONTACT</a></li>
+      <li><a id="home-link">TED</a><li><a id="blank-link"></a></li></li><li><a id="about-link">ABOUT</a></li><li><a id="portfolio-link">PORTFOLIO</a></li><li><a id="contact-link">CONTACT</a></li>
     </ul>
   </div>
   <div id="blank-space"></div>
@@ -23,6 +23,10 @@
     <div id="summary">
       <div id="summary-photo"></div>
       <div id="summary-words"><p>I am an engineer in San Francisco and I am currenly looking for a full-time software developer position.  My knowledge and experience in software includes web development, object-oriented programming, algorithms, and data structures.  I also have experience in engineering, problem-solving, teamwork, and customer-interaction from my years as an electrical engineer in the field of regulatory compliance.</p><br><p>I am interested in front-end, back-end, and full-stack positions!</p></div>
+    </div>
+    <div id="tech" class="details">
+      <h2>LANGUAGES & TECHNOLOGIES</h2>
+      <p>Ruby, Ruby on Rails, Javascript, jQuery, Backbone.js, SQL, Git, HTML, CSS</p>
     </div>
     <div id="employment" class="details">
       <h2>EMPLOYMENT HISTORY</h2>
@@ -39,9 +43,12 @@
   <div class="content" id="contact">Contact section</div>
   <script type="text/javascript">
     $(document).ready( function() {
-      var homeDiv = document.getElementById("home");
-      homeDiv.style.display = "block";
-      currentDiv = homeDiv;
+      // var homeDiv = document.getElementById("home");
+      // homeDiv.style.display = "block";
+      // currentDiv = homeDiv;
+      var aboutDiv = document.getElementById("about");
+      aboutDiv.style.display = "block";
+      currentDiv = aboutDiv;
     });
   </script>
   <script type="text/javascript" src="scripts/link_events.js"></script>
