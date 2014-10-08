@@ -1,6 +1,6 @@
 function changeDiv(link, div) {
   link.addEventListener("click", function(event) {
-    // event.preventDefault();
+    event.preventDefault();
     currentDiv.style.display = "none";
     div.style.display = "block";
     currentDiv = div;
