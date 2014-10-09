@@ -7,6 +7,13 @@ function changeDiv(link, div) {
   });
 }
 
+function highlightTitle(div, link) {
+  $( div ).hover(
+    function() { link.style.color = "yellow" },
+    function() { link.style.color = "black" }
+  );
+}
+
 var homeDiv = document.getElementById("home");
 var homeLink = document.getElementById("home-link");
 var aboutDiv = document.getElementById("about");
@@ -20,3 +27,10 @@ changeDiv( aboutLink, aboutDiv );
 changeDiv( contactLink, contactDiv );
 changeDiv( portfolioLink, portfolioDiv );
 changeDiv( homeLink, homeDiv );
+
+highlightTitle( "#running", $("#running-link")[0] );
+highlightTitle( $("#running-link")[0], $("#running-link")[0] );
+highlightTitle( "#earthquake", $("#earthquake-link")[0] );
+highlightTitle( $("#earthquake-link")[0], $("#earthquake-link")[0] );
+highlightTitle( "#personal", $("#personal-link")[0] );
+highlightTitle( $("#personal-link")[0], $("#personal-link")[0] );
