@@ -1,3 +1,3 @@
 ## My personal website.
 
-URL: http://www.tedbreen.com
+http://www.tedbreen.com
