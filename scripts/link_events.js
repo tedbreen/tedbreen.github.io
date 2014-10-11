@@ -13,24 +13,3 @@ function highlightTitle(div, link) {
     function() { link.style.color = "black" }
   );
 }
-
-var homeDiv = document.getElementById("home");
-var homeLink = document.getElementById("home-link");
-var aboutDiv = document.getElementById("about");
-var aboutLink = document.getElementById("about-link");
-var portfolioDiv = document.getElementById("portfolio");
-var portfolioLink = document.getElementById("portfolio-link");
-var contactDiv = document.getElementById("contact");
-var contactLink = document.getElementById("contact-link");
-
-changeDiv( aboutLink, aboutDiv );
-changeDiv( contactLink, contactDiv );
-changeDiv( portfolioLink, portfolioDiv );
-changeDiv( homeLink, homeDiv );
-
-highlightTitle( "#running", $("#running-link")[0] );
-highlightTitle( $("#running-link")[0], $("#running-link")[0] );
-highlightTitle( "#earthquake", $("#earthquake-link")[0] );
-highlightTitle( $("#earthquake-link")[0], $("#earthquake-link")[0] );
-highlightTitle( "#personal", $("#personal-link")[0] );
-highlightTitle( $("#personal-link")[0], $("#personal-link")[0] );
