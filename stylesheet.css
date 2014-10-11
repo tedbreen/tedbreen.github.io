@@ -4,18 +4,18 @@ html, body, ul, li, div, p, h2, h3 {
   border: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-#navbar {
+div#navbar {
   /*border: 1px dashed black;*/
   width: 900px;
   margin: 0px auto;
 }
-#navbar > ul {
+div#navbar > ul {
   list-style-type: none;
   font-size: 20px;
   font-weight: bold;
   padding: 15px 0px;
 }
-#navbar > ul > li {
+div#navbar > ul > li {
   display: inline-block;
   text-align: center;
 }
@@ -24,48 +24,48 @@ a {
   padding: 4px 0px;
   text-decoration: none;
 }
-#home-link {
+a#home-link {
   color: white;
   background-color: #fc4c02;
 }
-.non-home-link {
+a.non-home-link {
   color: #fc4c02;
 }
-#home-link:hover {
+a#home-link:hover {
   color: yellow;
 }
-.non-home-link:hover {
+a.non-home-link:hover {
   color: yellow;
 }
-#home-link {
+a#home-link {
   width: 55px;
 }
-#blank-link {
+a#blank-link {
   width: 484px;
 }
-#about-link {
+a#about-link {
   width: 95px;
 }
-#portfolio-link {
+a#portfolio-link {
   width: 140px;
 }
-#contact-link {
+a#contact-link {
   width: 126px;
 }
-.content {
+div.content {
   display: none;
 }
-#blank-space {
+div#blank-space {
   width: 900px;
   height: 25px;
 }
-#home {
+div#home {
   width: 900px;
   height: 600px;
   margin: 0px auto;
   position: relative;
 }
-#name {
+div#name {
   position: absolute;
   top: 150px;
   width: 100%;
@@ -90,7 +90,7 @@ a {
   75% { opacity: 1; }
   100% { opacity: 1; }
 }
-#title {
+div#title {
   position: absolute;
   top: 250px;
   width: 100%;
@@ -115,7 +115,7 @@ a {
   75% { opacity: 1; }
   100% { opacity: 1; }
 }
-#location {
+div#location {
   position: absolute;
   top: 330px;
   width: 100%;
@@ -140,7 +140,7 @@ a {
   /*75% { opacity: 0; }*/
   100% { opacity: 1; }
 }
-#about {
+div#about {
   width: 900px;
   margin: 0px auto;
 }
@@ -149,9 +149,9 @@ h2 {
   margin-bottom: 25px;
   color: #428bca;
 }
-#summary {
+div#summary {
 }
-#summary-photo {
+div#summary-photo {
   background-image: url(images/github_avatar.png);
   border-radius: 20px;
   position: relative;
@@ -159,73 +159,99 @@ h2 {
   height: 220px;
   display: inline-block;
 }
-#summary-words {
+div#summary-words {
   position: relative;
   top: -60px;
   left: 25px;
   width: 645px;
   display: inline-block;
 }
-.details {
+div.details {
   width: 900px;
   margin: 50px auto;
 }
-#tech > ul > li {
+div#tech > ul > li {
   /*border: 1px solid black;*/
   display: inline-block;
   padding: 0px 20px;
 }
-.details > div {
+div.details > div {
   display: inline-block;
   padding-bottom: 10px;
 }
-#emp-1 {
+div#emp-1 {
   width: 500px;
 }
-#emp-2 {
+div#emp-2 {
   width: 200px;
 }
-#emp-3 {
+div#emp-3 {
   width: 200px;
 }
-#ed-1 {
+div#ed-1 {
   width: 500px;
 }
-#ed-2 {
+div#ed-2 {
   width: 110px;
 }
-#ed-3 {
+div#ed-3 {
   width: 290px;
 }
-.details > p {
+div.details > p {
   padding-bottom: 10px;
 }
-.details > ul {
+div.details > ul {
   padding-left: 30px;
 }
-.details > ul > li {
+div.details > ul > li {
   padding-bottom: 10px;
 }
-#portfolio {
+div#portfolio {
   width: 900px;
   margin: 0px auto;
+  /*border: 1px solid blue;*/
 }
-.project-icons {
+div.project-icons {
   width: 220px;
   height: 165px;
   box-shadow: 10px 10px 5px #888888;
-  margin-bottom: 50px;
 }
-.header-links {
-  border: 1px solid red;
-  width: 220px;
+div.projects {
+  display: inline-block;
+  width: 290px;
+  font-size: 24px;
 }
-.projects > a {
+div.projects > a {
   display: inline-block;
   color: black;
   text-decoration: none;
 }
-#contact {
+div.projects > div {
+  font-size: 16px;
+}
+div.project-description {
+  height: 110px;
+  width: 220px;
+}
+a.project-titles {
+  padding-bottom: 10px;
+}
+a.source {
+  font-size: 16px;
+}
+a.source:link {
+  color: #fc4c02;
+}
+a.source:visited {
+  color: #fc4c02;
+}
+a.source:hover {
+  color: yellow;
+}
+div#contact {
   width: 900px;
   margin: 0px auto;
+}
+div#contact > a {
+  display: block;
 }

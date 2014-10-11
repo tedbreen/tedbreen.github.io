@@ -42,26 +42,33 @@
   <div class="content" id="portfolio">
     <h2>PROJECTS & OTHER WORK</h2>
     <div class="projects">
-      <a id="running-link" href="http://www.runninglog.us" target="_blank">Running Log</a>
-      <div id="running" class="project-icons"><a href="http://www.runninglog.us" target="_blank"><img src="images/running_log_icon.jpg"></a></div>
+      <a class="project-titles" id="running-link" href="http://www.runninglog.us" target="_blank">Running Log</a>
+      <div id="running" class="project-icons"><a href="http://www.runninglog.us" target="_blank"><img src="images/running_log_icon.jpg"></a></div><br>
+      <div class="project-description">Users log runs and share progress with friends. Backbone.js single page app with a REST API built on Rails.</div>
+      <a class="source" href="https://github.com/tedbreen/RunningLog" target="_blank">[Source code]</a>
     </div>
     <div class="projects">
-      <a id="earthquake-link" href="http://earthquakefinder.s3-website-us-west-1.amazonaws.com/" target="_blank">Earthquake Finder</a>
-      <div id="earthquake" class="project-icons"><a href="http://earthquakefinder.s3-website-us-west-1.amazonaws.com/" target="_blank"><img src="images/earthquake_icon.jpg"></a></div>
+      <a class="project-titles" id="earthquake-link" href="http://earthquakefinder.s3-website-us-west-1.amazonaws.com/" target="_blank">Earthquake Finder</a>
+      <div id="earthquake" class="project-icons"><a href="http://earthquakefinder.s3-website-us-west-1.amazonaws.com/" target="_blank"><img src="images/earthquake_icon.jpg"></a></div><br>
+      <div class="project-description">Search for and locate earthquakes on a Google Map. Javascript website utilising various APIs.</div>
+      <a class="source" href="https://github.com/tedbreen/EarthquakeFinder" target="_blank">[Source code]</a>
     </div>
     <div class="projects">
-      <a id="personal-link" href="http://tedbreen.github.io" target="_blank">Personal Site</a>
-      <div id="personal" class="project-icons"><a href="http://tedbreen.github.io" target="_blank"><img src="images/personal_site_icon.jpg"></a></div>
+      <a class="project-titles" id="personal-link" href="http://tedbreen.github.io" target="_blank">Personal Site</a>
+      <div id="personal" class="project-icons"><a href="http://tedbreen.github.io" target="_blank"><img src="images/personal_site_icon.jpg"></a></div><br>
+      <div class="project-description">You're looking at it! Includes CSS and jQuery animations.</div>
+      <a class="source" href="https://github.com/tedbreen/tedbreen.github.io" target="_blank">[Source code]</a>
     </div>
   </div>
   <div class="content" id="contact">
+    <h2>CONTACT ME!</h2>
     <p>email: ted.breen@gmail.com</p>
   </div>
   <script type="text/javascript">
     $(document).ready( function() {
-      var homeDiv = document.getElementById("home");
-      homeDiv.style.display = "block";
-      currentDiv = homeDiv;
+      var portfolioDiv = document.getElementById("portfolio");
+      portfolioDiv.style.display = "block";
+      currentDiv = portfolioDiv;
     });
   </script>
   <script type="text/javascript" src="scripts/link_events.js"></script>
