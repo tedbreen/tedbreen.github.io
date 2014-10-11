@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
 </head>
 <body>
   <div id="navbar">
@@ -64,6 +63,16 @@
     <h2>CONTACT ME!</h2>
     <p>email: ted.breen@gmail.com</p>
   </div>
+  <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="scripts/link_events.js"></script>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55642674-1', 'auto');
+  ga('send', 'pageview');
+  </script>
   <script type="text/javascript">
     $(document).ready( function() {
       var homeDiv = document.getElementById("home");
@@ -71,6 +80,5 @@
       currentDiv = homeDiv;
     });
   </script>
-  <script type="text/javascript" src="scripts/link_events.js"></script>
 </body>
 </html>
