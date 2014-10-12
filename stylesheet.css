@@ -151,14 +151,13 @@ h2 {
 }
 div#summary {
   border: 1px solid black;
-  /*height: 300px;*/
+  height: 220px;
 }
 div#summary-photo {
   border: 1px solid blue;
   background-image: url(images/github_avatar.png);
   border-radius: 20px;
   width: 220px;
-  height: 220px;
   display: inline-block;
 }
 div#summary-words {
