@@ -147,30 +147,26 @@ h2 {
   font-size: 30px;
   margin-bottom: 25px;
   color: #428bca;
-  border: 1px solid black;
 }
 div#summary {
-  border: 1px solid black;
-  height: 220px;
+  height: 270px;
 }
 div#summary-photo {
-  border: 1px solid blue;
   background-image: url(images/github_avatar.png);
   border-radius: 20px;
   width: 220px;
+  height: 220px;
   display: inline-block;
 }
 div#summary-words {
-  border: 1px solid red;
   position: absolute;
   width: 645px;
-  height: 220px;
   display: inline-block;
   padding-left: 25px;
 }
 div.details {
   width: 900px;
-  margin: 50px auto;
+  margin-bottom: 50px;
 }
 div#tech > ul > li {
   display: inline-block;
