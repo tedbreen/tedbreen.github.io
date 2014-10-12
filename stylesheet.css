@@ -147,8 +147,14 @@ h2 {
   font-size: 30px;
   margin-bottom: 25px;
   color: #428bca;
+  border: 1px solid black;
+}
+div#summary {
+  border: 1px solid black;
+  /*height: 300px;*/
 }
 div#summary-photo {
+  border: 1px solid blue;
   background-image: url(images/github_avatar.png);
   border-radius: 20px;
   width: 220px;
@@ -156,8 +162,10 @@ div#summary-photo {
   display: inline-block;
 }
 div#summary-words {
+  border: 1px solid red;
   position: absolute;
   width: 645px;
+  height: 220px;
   display: inline-block;
   padding-left: 25px;
 }
