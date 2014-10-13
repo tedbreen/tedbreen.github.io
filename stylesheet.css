@@ -54,7 +54,7 @@ a#contact-link {
 div.content {
   display: none;
 }
-div#blank-space {
+div.blank-space {
   width: 900px;
   height: 25px;
 }
@@ -251,4 +251,16 @@ a.source:hover {
 div#contact {
   width: 900px;
   margin: 0px auto;
+}
+div.contact {
+  /*border: 1px solid black;*/
+  width: 290px;
+  /*text-align: center;*/
+  display: inline-block;
+}
+div#linkedin {
+  text-align: center;
+}
+div#github {
+  text-align: right;
 }
