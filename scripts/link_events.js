@@ -8,7 +8,7 @@ function changeDiv(link, div) {
 }
 
 function highlightTitle(div, link) {
-  $( div ).hover(
+  jQuery( div ).hover(
     function() { link.style.color = "yellow" },
     function() { link.style.color = "black" }
   );
