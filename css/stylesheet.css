@@ -152,7 +152,7 @@ div#summary {
   height: 270px;
 }
 div#summary-photo {
-  background-image: url(images/github_avatar.png);
+  background-image: url(../images/github_avatar.png);
   border-radius: 20px;
   width: 220px;
   height: 220px;

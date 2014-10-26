@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
   <div id="navbar">
@@ -53,10 +53,10 @@
       <a class="source" href="https://github.com/tedbreen/EarthquakeFinder" target="_blank">[Source code]</a>
     </div>
     <div class="projects">
-      <div id="personal-site">Personal Site</div>
-      <div id="personal" class="project-icons"><div><img src="images/personal_site_icon.jpg"></div></div><br>
-      <div class="project-description">You're looking at it! Includes CSS and jQuery animations.</div>
-      <a class="source" href="https://github.com/tedbreen/tedbreen.github.io" target="_blank">[Source code]</a>
+      <a class="project-titles" id="slots-link" href="http://coffeeslots.s3-website-us-west-1.amazonaws.com/" target="_blank">Slot Machine</a>
+      <div id="slots" class="project-icons"><a href="http://coffeeslots.s3-website-us-west-1.amazonaws.com/" target="_blank"><img src="images/slots_icon.jpg"></a></div><br>
+      <div class="project-description">Javascript and CSS enabled slot machine game with a caffeinated twist. Let it ride!</div>
+      <a class="source" href="https://github.com/tedbreen/SlotMachine" target="_blank">[Source code]</a>
     </div>
   </div>
   <div class="content" id="contact">
@@ -66,11 +66,11 @@
     <div class="contact" id="linkedin"><a href="https://www.linkedin.com/in/tedbreen" target="_blank"><img src="images/linkedin-icon.png"></a></div>
     <div class="contact" id="github"><a href="https://github.com/tedbreen" target="_blank"><img src="images/github-icon.png"></a></div>
   </div>
-  <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript">
     $.noConflict();
   </script>
-  <script type="text/javascript" src="scripts/link_events.js"></script>
+  <script type="text/javascript" src="js/link_events.js"></script>
   <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -90,7 +90,7 @@
       var homeLink = document.getElementById("home-link");
       var homeDiv = document.getElementById("home");
       
-      homeDiv.style.display = "block";
+      portfolioDiv.style.display = "block";
       currentDiv = homeDiv;
       
       changeDiv( aboutLink, aboutDiv );
@@ -102,6 +102,8 @@
       highlightTitle( jQuery("#running-link")[0], jQuery("#running-link")[0] );
       highlightTitle( "#earthquake", jQuery("#earthquake-link")[0] );
       highlightTitle( jQuery("#earthquake-link")[0], jQuery("#earthquake-link")[0] );
+      highlightTitle( "#slots", jQuery("#slots-link")[0] );
+      highlightTitle( jQuery("#slots-link")[0], jQuery("#slots-link")[0] );
     });
   </script>
 </body>
