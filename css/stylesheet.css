@@ -6,8 +6,6 @@ html, body, ul, li, div, p, h2, h3 {
 }
 .standard-width {
   width: 900px;
-}
-#navbar {
   margin: 0px auto;
 }
 #navbar > ul {
@@ -61,7 +59,6 @@ html, body, ul, li, div, p, h2, h3 {
 }
 #home {
   height: 600px;
-  margin: 0px auto;
   position: relative;
 }
 #name {
@@ -139,9 +136,6 @@ html, body, ul, li, div, p, h2, h3 {
   /*75% { opacity: 0; }*/
   100% { opacity: 1; }
 }
-#about {
-  margin: 0px auto;
-}
 h2 {
   font-size: 30px;
   margin-bottom: 25px;
@@ -198,9 +192,6 @@ h2 {
 .details > ul > li {
   padding-bottom: 10px;
 }
-#portfolio {
-  margin: 0px auto;
-}
 .project-icons {
   width: 220px;
   height: 165px;
@@ -241,9 +232,6 @@ h2 {
 }
 .source:hover {
   color: yellow;
-}
-#contact {
-  margin: 0px auto;
 }
 .contact {
   width: 290px;
