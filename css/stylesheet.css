@@ -183,14 +183,12 @@ div.details > div {
   width: 300px;
   text-align: right;
 }
-div#ed-1 {
+.ed-school {
   width: 500px;
 }
-div#ed-2 {
-  width: 110px;
-}
-div#ed-3 {
-  width: 290px;
+.ed-dates {
+  width: 400px;
+  text-align: right;
 }
 div.details > p {
   padding-bottom: 10px;
