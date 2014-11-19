@@ -4,8 +4,10 @@ html, body, ul, li, div, p, h2, h3 {
   border: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-#navbar {
+.standard-width {
   width: 900px;
+}
+#navbar {
   margin: 0px auto;
 }
 #navbar > ul {
@@ -55,11 +57,9 @@ html, body, ul, li, div, p, h2, h3 {
   display: none;
 }
 .blank-space {
-  width: 900px;
   height: 25px;
 }
 #home {
-  width: 900px;
   height: 600px;
   margin: 0px auto;
   position: relative;
@@ -140,7 +140,6 @@ html, body, ul, li, div, p, h2, h3 {
   100% { opacity: 1; }
 }
 #about {
-  width: 900px;
   margin: 0px auto;
 }
 h2 {
@@ -183,7 +182,6 @@ h2 {
   text-align: right;
 }
 .details {
-  width: 900px;
   margin-bottom: 50px;
 }
 .details > div {
@@ -201,7 +199,6 @@ h2 {
   padding-bottom: 10px;
 }
 #portfolio {
-  width: 900px;
   margin: 0px auto;
 }
 .project-icons {
@@ -246,13 +243,10 @@ h2 {
   color: yellow;
 }
 #contact {
-  width: 900px;
   margin: 0px auto;
 }
 .contact {
-  /*border: 1px solid black;*/
   width: 290px;
-  /*text-align: center;*/
   display: inline-block;
 }
 #linkedin {
