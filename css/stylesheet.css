@@ -176,14 +176,12 @@ div.details > div {
   display: inline-block;
   padding-bottom: 10px;
 }
-div#emp-1 {
-  width: 500px;
+.emp-position {
+  width: 600px;
 }
-div#emp-2 {
-  width: 200px;
-}
-div#emp-3 {
-  width: 200px;
+.emp-dates {
+  width: 300px;
+  text-align: right;
 }
 div#ed-1 {
   width: 500px;
