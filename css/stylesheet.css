@@ -8,6 +8,13 @@ html, body, ul, li, div, p, h2, h3 {
   width: 900px;
   margin: 0px auto;
 }
+#navbar {
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+}
 #navbar > ul {
   list-style-type: none;
   font-size: 20px;
@@ -21,6 +28,9 @@ html, body, ul, li, div, p, h2, h3 {
 #navbar a {
   display: block;
   text-decoration: none;
+}
+.content {
+  padding-top: 60px;
 }
 #home-link {
   color: white;
@@ -51,9 +61,6 @@ html, body, ul, li, div, p, h2, h3 {
 #contact-link {
   width: 126px;
 }
-.content {
-  display: none;
-}
 .blank-space {
   height: 25px;
 }
@@ -63,7 +70,7 @@ html, body, ul, li, div, p, h2, h3 {
 }
 #name {
   position: absolute;
-  top: 150px;
+  top: 200px;
   width: 100%;
   text-align: center;
   color: white;
@@ -88,7 +95,7 @@ html, body, ul, li, div, p, h2, h3 {
 }
 #title {
   position: absolute;
-  top: 250px;
+  top: 300px;
   width: 100%;
   text-align: center;
   color: white;
@@ -113,7 +120,7 @@ html, body, ul, li, div, p, h2, h3 {
 }
 #location {
   position: absolute;
-  top: 330px;
+  top: 380px;
   width: 100%;
   text-align: center;
   color: white;
@@ -138,11 +145,13 @@ html, body, ul, li, div, p, h2, h3 {
 }
 h2 {
   font-size: 30px;
-  margin-bottom: 25px;
+  margin: 25px 0px 25px 0px;
   color: #428bca;
 }
-#summary {
-  height: 270px;
+h3 {
+  font-size: 22px;
+  margin: 30px 0px 25px 0px;
+  color: #428bca;
 }
 #summary-photo {
   background-image: url(../images/github_avatar.png);
@@ -175,9 +184,6 @@ h2 {
   width: 400px;
   text-align: right;
 }
-.details {
-  margin-bottom: 50px;
-}
 .details > div {
   display: inline-block;
   padding-bottom: 10px;
@@ -187,7 +193,6 @@ h2 {
 }
 .details > ul {
   padding-left: 30px;
-  margin-bottom: 30px;
 }
 .details > ul > li {
   padding-bottom: 10px;
@@ -236,6 +241,7 @@ h2 {
 }
 .contact {
   width: 290px;
+  height: 800px;
   display: inline-block;
 }
 #linkedin {
