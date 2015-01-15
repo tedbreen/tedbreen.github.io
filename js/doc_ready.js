@@ -1,4 +1,11 @@
 (function(){
+    function highlightTitle(div, link) {
+      jQuery( div ).hover(
+        function() { link.style.color = "yellow" },
+        function() { link.style.color = "black" }
+      );
+    }
+    
     jQuery( document ).ready( function() {
         // following lines enable highlighting on portfolio links
         highlightTitle( "#running", jQuery("#running-link")[0] );
