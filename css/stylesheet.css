@@ -1,252 +1,90 @@
-html, body, ul, li, div, p, h2, h3 {
+@import "./text.css";
+@import "./image-words.css";
+
+html, body, ul {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 .standard-width {
-  width: 900px;
-  margin: 0px auto;
+  width: 100%;
 }
-#navbar {
+
+nav {
   position: fixed;
   background-color: white;
   z-index: 100;
   width: 100%;
   text-align: center;
+  padding: 10px 0;
 }
-#navbar > ul {
+
+nav ul {
   list-style-type: none;
   font-size: 20px;
   font-weight: bold;
-  padding: 15px 0px;
+  margin: 0;
 }
-#navbar > ul > li {
+
+nav li {
   display: inline-block;
   text-align: center;
 }
-#navbar a {
+
+nav a {
   display: block;
   text-decoration: none;
+  padding: 10px;
 }
+
 .content {
-  padding-top: 60px;
+  padding-top: 43px;
 }
-#home-link {
-  color: white;
-  background-color: #fc4c02;
-  padding: 4px 0px;
+
+.content ul {
+  padding-left: 20px;
 }
-.non-home-link {
-  color: #fc4c02;
-}
-#home-link:hover {
+
+/*HOME/TED link in nav bar*/
+.text-white.background-orange:hover {
   color: yellow;
 }
-.non-home-link:hover {
-  color: yellow;
-}
-#home-link {
-  width: 55px;
-}
-#blank-link {
-  width: 484px;
-}
-#about-link {
-  width: 95px;
-}
-#portfolio-link {
-  width: 140px;
-}
-#contact-link {
-  width: 126px;
-}
-.blank-space {
-  height: 25px;
-}
-#home {
-  height: 600px;
+
+.medium-wide-screen {
+  display: none;
   position: relative;
 }
-#name {
-  position: absolute;
-  top: 200px;
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-size: 70px;
-  font-weight: bold;
-  -webkit-animation: nameFadeIn 4s;
-  -moz-animation: nameFadeIn 4s;
-}
-@-webkit-keyframes nameFadeIn {
-  0% { opacity: 0; }
-  /*25% { opacity: 0; }*/
-  50% { opacity: 1; }
-  75% { opacity: 1; }
-  100% { opacity: 1; }
-}
-@-moz-keyframes nameFadeIn {
-    0% { opacity: 0; }
-  /*25% { opacity: 0; }*/
-  50% { opacity: 1; }
-  75% { opacity: 1; }
-  100% { opacity: 1; }
-}
-#title {
-  position: absolute;
-  top: 300px;
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  -webkit-animation: titleFadeIn 4s;
-  -moz-animation: titleFadeIn 4s;
-}
-@-webkit-keyframes titleFadeIn {
-  0% { opacity: 0;}
-  25% { opacity: 0;}
-  /*50% { opacity: 0; }*/
-  75% { opacity: 1; }
-  100% { opacity: 1; }
-}
-@-moz-keyframes titleFadeIn {
-  0% { opacity: 0;}
-  25% { opacity: 0;}
-  /*50% { opacity: 0; }*/
-  75% { opacity: 1; }
-  100% { opacity: 1; }
-}
-#location {
-  position: absolute;
-  top: 380px;
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  -webkit-animation: locFadeIn 4s;
-  -moz-animation: locFadeIn 4s;
-}
-@-webkit-keyframes locFadeIn {
-  0% { opacity: 0;}
-  25% { opacity: 0; }
-  50% { opacity: 0;}
-  /*75% { opacity: 0; }*/
-  100% { opacity: 1; }
-}
-@-moz-keyframes locFadeIn {
-  0% { opacity: 0;}
-  25% { opacity: 0; }
-  50% { opacity: 0;}
-  /*75% { opacity: 0; }*/
-  100% { opacity: 1; }
-}
-h2 {
-  font-size: 30px;
-  margin: 25px 0px 25px 0px;
-  color: #428bca;
-}
-h3 {
-  font-size: 22px;
-  margin: 30px 0px 25px 0px;
-  color: #428bca;
-}
-#summary-photo {
-  background-image: url(../images/github_avatar.png);
-  border-radius: 20px;
-  width: 220px;
-  height: 220px;
-  display: inline-block;
-}
-#summary-words {
-  position: absolute;
-  width: 645px;
-  display: inline-block;
-  padding-left: 25px;
-}
-#tech > ul > li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-.emp-position {
-  width: 600px;
-}
-.emp-dates {
-  width: 300px;
-  text-align: right;
-}
-.ed-school {
-  width: 500px;
-}
-.ed-dates {
-  width: 400px;
-  text-align: right;
-}
-.details > div {
-  display: inline-block;
-  padding-bottom: 10px;
-}
-.details > p {
-  padding-bottom: 10px;
-}
-.details > ul {
-  padding-left: 30px;
-}
-.details > ul > li {
-  padding-bottom: 10px;
-}
-.project-icons {
-  width: 220px;
-  height: 165px;
-  box-shadow: 10px 10px 5px #888888;
-}
-.projects {
-  display: inline-block;
-  width: 290px;
-  font-size: 24px;
-  margin-top: 25px;
-}
-.projects > a {
-  display: inline-block;
-  color: black;
-  text-decoration: none;
-}
-.projects > div {
-  font-size: 16px;
-}
-#personal-site {
-  font-size: 24px;
-  padding-bottom: 10px;
-}
-.project-description {
-  height: 110px;
-  width: 220px;
-}
-.project-titles {
-  padding-bottom: 10px;
-}
-.source {
-  font-size: 16px;
-}
-.source:link {
-  color: #fc4c02;
-}
-.source:visited {
-  color: #fc4c02;
-}
-.source:hover {
-  color: yellow;
-}
+
 .contact {
-  width: 290px;
-  height: 800px;
   display: inline-block;
+  padding-bottom: 25px;
+  padding-right: 25px;
 }
-#linkedin {
-  text-align: center;
+
+.content.standard-width:last-of-type {
+  padding-bottom: 150px;
 }
-#github {
-  text-align: right;
+
+.wide-only {
+  display: none;
+}
+
+/*this query is for the underwater sea photo*/
+@media (min-width: 641px) {
+  .medium-wide-screen {
+    display: block;
+  }
+}
+
+@media (min-width: 800px) {
+  .wide-screen {
+    display: block;
+  }
+
+  .standard-width {
+    max-width: 800px;
+    margin: 0px auto;
+  }
 }

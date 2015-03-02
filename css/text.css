@@ -1,0 +1,42 @@
+h2 {
+  font-size: 30px;
+  margin: 25px 0px 25px 0px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 30px 0px 25px 0px;
+}
+
+.text-faded {
+  color: rgb(120,120,120);
+}
+
+.text-blue {
+  color: #428bca;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-orange {
+  color: #fc4c02;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.background-orange {
+  background-color: #fc4c02;
+}
+
+.background-blue {
+  background-color: #428bca;
+}

@@ -1,0 +1,74 @@
+.image-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#name {
+  top: 200px;
+  font-size: 70px;
+  -webkit-animation: nameFadeIn 4s;
+  -moz-animation: nameFadeIn 4s;
+}
+
+@-webkit-keyframes nameFadeIn {
+  0% { opacity: 0; }
+  /*25% { opacity: 0; }*/
+  50% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes nameFadeIn {
+    0% { opacity: 0; }
+  /*25% { opacity: 0; }*/
+  50% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+#title {
+  top: 300px;
+  font-size: 50px;
+  -webkit-animation: titleFadeIn 4s;
+  -moz-animation: titleFadeIn 4s;
+}
+
+@-webkit-keyframes titleFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0;}
+  /*50% { opacity: 0; }*/
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes titleFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0;}
+  /*50% { opacity: 0; }*/
+  75% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+#location {
+  top: 380px;
+  font-size: 50px;
+  -webkit-animation: locFadeIn 4s;
+  -moz-animation: locFadeIn 4s;
+}
+@-webkit-keyframes locFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0; }
+  50% { opacity: 0;}
+  /*75% { opacity: 0; }*/
+  100% { opacity: 1; }
+}
+@-moz-keyframes locFadeIn {
+  0% { opacity: 0;}
+  25% { opacity: 0; }
+  50% { opacity: 0;}
+  /*75% { opacity: 0; }*/
+  100% { opacity: 1; }
+}

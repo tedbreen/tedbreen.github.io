@@ -1,92 +1,110 @@
 <!DOCTYPE>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
+
 <body>
-  <div id="navbar">
+  <nav>
     <ul>
-      <li><a id="home-link" href="#">TED</a><li><a id="blank-link"></a></li></li><li><a id="about-link" class="non-home-link" href="#about">ABOUT</a></li><li><a id="portfolio-link" class="non-home-link" href="#portfolio">PORTFOLIO</a></li><li><a id="contact-link" class="non-home-link" href="#contact">CONTACT</a></li>
+      <li>
+        <a class="text-white background-orange" href="#">TED</a>
+      </li>
+      <li>
+        <a class="text-orange" href="#contact">CONTACT</a>
+      </li>
     </ul>
+  </nav>
+
+  <div class="content standard-width medium-wide-screen">
+    <img src="images/home-background.jpg" width="800">
+    <div id="name" class="image-text">Edward Breen</div>
+    <div id="title" class="image-text">Software Engineer</div>
+    <div id="location" class="image-text">San Francisco</div>
   </div>
-  <div class="blank-space"></div>
-  <div class="content standard-width" id="home">
-    <img src="images/home-background.jpg">
-    <div id="name">Edward Breen</div>
-    <div id="title">Software Engineer</div>
-    <div id="location">San Francisco</div>
-  </div>
-  <div class="content standard-width" id="about">
-    <h2>ABOUT ME</h2>
-    <div id="summary">
-      <div id="summary-photo"></div>
-      <div id="summary-words"><p>I am an engineer in San Francisco and I am currenly looking for a full-time software developer position.  My knowledge and experience in software includes web development, object-oriented programming, algorithms, and data structures.  I also have experience in engineering, problem-solving, teamwork, and customer-interaction from my years as an electrical engineer in the field of regulatory compliance.</p><br><p>I am interested in front-end, back-end, and full-stack positions!</p></div>
+
+  <div class="content standard-width">
+    <h2 class="text-white background-blue">ABOUT ME</h2>
+
+    <p>I am a software engineer at <a href="https://getable.com" target="_blank">Getable</a> in San Francisco</p>
+
+    <div class="details">
+      <h3 class="text-blue">LANGUAGES & TECHNOLOGIES</h3>
+      <p>JavaScript, Node.js, Backbone.js, jQuery, SQL, NoSQL, Git, HTML, CSS</p>
     </div>
-    <div id="tech" class="details">
-      <h3>LANGUAGES & TECHNOLOGIES</h3>
-      <p>Ruby, Ruby on Rails, JavaScript, jQuery, Backbone.js, SQL, Git, HTML, CSS</p>
+
+    <div class="details">
+      <h3 class="text-blue">EMPLOYMENT HISTORY</h3>
+      <p class="text-bold">Software Engineer at Getable, San Francisco, CA</p>
+      <p class="text-faded">February 2015 to present</p>
+      <p class="text-italic">Construction industry app for procuring, managing, and paying for equipment rentals</p>
+      <ul>
+        <li>Front-end and back-end development</li>
+        <li>JavaScript, Node.js, Backbone.js, CouchDB, CSS, and HTML</li>
+      </ul><br>
+
+      <p class="text-bold">Frontend Developer at TapSense, San Francisco, CA</p>
+      <p class="text-faded">October 2014 to November 2014</p>
+      <p class="text-italic">Independent mobile advertising exchange.</p>
+      <ul>
+        <li>Develop and maintain features and functionality for the Dashboard (app-launching and management tool for advertisers and publishers)</li>
+        <li>Javascript, Backbone.js, MongoDB, CSS, HTML.</li>
+      </ul><br>
+
+      <p class="text-bold">Compliance Engineer II at Curtis-Straus, Littleton, MA</p>
+      <p class="text-faded">March 2006 to May 2013</p>
+      <p class="text-italic">Regulatory compliance testing laboratory for the electronics industry.</p>
+      <ul>
+        <li>Performed electromagnetic compatibility, electromagnetic interference, and intentional radio testing on new and existing products.  Completed projects in two days or less, barring unforeseen product and test failures.</li>
+        <li>Provided diagnosis and troubleshooting for failing products.  Consulted on design changes and modifications to achieve passing results.</li>
+        <li>Preferred engineer for Oracle and Motorola test projects.</li>
+      </ul>
     </div>
-    <div id="employment" class="details">
-      <h3>EMPLOYMENT HISTORY</h3>
-      <div class="emp-position"><strong>Frontend Developer at TapSense, San Francisco, CA</strong></div><div class="emp-dates">October 2014 to November 2014</div>
-      <p><em>Independent mobile advertising exchange.</em></p>
-      <ul><li>Develop and maintain features and functionality for the Dashboard (app-launching and management tool for advertisers and publishers) with Javascript, Backbone.js, CSS, HTML.</li></ul><br>
-      <div class="emp-position"><strong>Compliance Engineer II at Curtis-Straus, Littleton, MA</strong></div><div class="emp-dates">March 2006 to May 2013</div>
-      <p><em>Regulatory compliance testing laboratory for the electronics industry.</em></p>
-      <ul><li>Performed electromagnetic compatibility, electromagnetic interference, and intentional radio testing on new and existing products.  Completed projects in two days or less, barring unforeseen product and test failures.</li><li>Provided diagnosis and troubleshooting for failing products.  Consulted on design changes and modifications to achieve passing results.</li><li>Preferred engineer for Oracle and Motorola test projects.</li></ul></div>
-    <div id="education" class="details">
-      <h3>EDUCATION</h3>
-      <div class="ed-school"><strong>University of Massachusetts-Amherst, Amherst, MA</strong></div><div class="ed-dates">September 1999 to December 2004</div>
-      <ul><li>Bachelor of Science in Electrical Engineering, February 2005</li><li>Coursework: Circuit Analysis, Electronics, Signals & Systems, Fields & Waves, Microwave Engineering, Multivariable Calculus, Linear Algebra, Differential Equations</li><li>Athletics:  Varsity member of cross-country and track teams.  Competed in NCAA Division 1 races.  Captain of cross-country team in senior season.</li></ul>
-    </div>
-  </div>
-  <div class="content standard-width" id="portfolio">
-    <h2>PROJECTS & OTHER WORK</h2>
-    <div class="projects">
-      <a class="project-titles" id="running-link" href="http://www.runninglog.us" target="_blank">Running Log</a>
-      <div id="running" class="project-icons"><a href="http://www.runninglog.us" target="_blank"><img src="images/running_log_icon.jpg"></a></div><br>
-      <div class="project-description">Users log runs and share progress with friends. Backbone.js single page app with a REST API built on Rails.</div>
-      <a class="source" href="https://github.com/tedbreen/RunningLog" target="_blank">[Source code]</a>
-    </div>
-    <div class="projects">
-      <a class="project-titles" id="earthquake-link" href="http://earthquakefinder.s3-website-us-west-1.amazonaws.com/" target="_blank">Earthquake Finder</a>
-      <div id="earthquake" class="project-icons"><a href="http://earthquakefinder.s3-website-us-west-1.amazonaws.com/" target="_blank"><img src="images/earthquake_icon.jpg"></a></div><br>
-      <div class="project-description">Search for and locate earthquakes on a Google Map. Javascript website utilising various APIs.</div>
-      <a class="source" href="https://github.com/tedbreen/EarthquakeFinder" target="_blank">[Source code]</a>
-    </div>
-    <div class="projects">
-      <a class="project-titles" id="slots-link" href="http://coffeeslots.s3-website-us-west-1.amazonaws.com/" target="_blank">Slot Machine</a>
-      <div id="slots" class="project-icons"><a href="http://coffeeslots.s3-website-us-west-1.amazonaws.com/" target="_blank"><img src="images/slots_icon.jpg"></a></div><br>
-      <div class="project-description">Javascript and CSS enabled slot machine game with a caffeinated twist. Let it ride!</div>
-      <a class="source" href="https://github.com/tedbreen/SlotMachine" target="_blank">[Source code]</a>
-    </div>
-    <div class="projects">
-      <a class="project-titles" id="doc-analyzer-link" href="http://coffeeslots.s3-website-us-west-1.amazonaws.com/" target="_blank">Document Analyzer</a>
-      <div id="doc-analyzer" class="project-icons"><a href="http://documentanalyzer.s3-website-us-west-1.amazonaws.com/" target="_blank"><img src="images/doc-analyzer_icon.jpg"></a></div><br>
-      <div class="project-description">Analyzes a writing sample and returns its statistics, including word count, word length distribution, and bigrams.</div>
-      <a class="source" href="https://github.com/tedbreen/DocumentAnalyzer" target="_blank">[Source code]</a>
+
+    <div class="details">
+      <h3 class="text-blue">EDUCATION</h3>
+      <p class="text-bold">University of Massachusetts-Amherst, Amherst, MA</p>
+      <p class="text-faded">September 1999 to December 2004</p>
+      <ul>
+        <li>Bachelor of Science in Electrical Engineering, February 2005</li>
+        <li>Coursework: Circuit Analysis, Electronics, Signals & Systems, Fields & Waves, Microwave Engineering, Multivariable Calculus, Linear Algebra, Differential Equations</li>
+        <li>Athletics:  Varsity member of cross-country and track teams.  Competed in NCAA Division 1 races.  Captain of cross-country team in senior season.</li>
+      </ul>
     </div>
   </div>
+
   <div class="content standard-width" id="contact">
-    <h2>CONTACT ME!</h2>
-    <div class="blank-space"></div>
-    <div class="contact" id="gmail"><a href="mailto:ted.breen@gmail.com" target="_blank"><img src="images/gmail_icon.png"></a></div>
-    <div class="contact" id="linkedin"><a href="https://www.linkedin.com/in/tedbreen" target="_blank"><img src="images/linkedin-icon.png"></a></div>
-    <div class="contact" id="github"><a href="https://github.com/tedbreen" target="_blank"><img src="images/github-icon.png"></a></div>
+    <h2 class="text-white background-blue">CONTACT</h2>
+    
+    <div class="contact">
+      <a href="mailto:ted.breen@gmail.com" target="_blank"><img src="images/gmail_icon.png"></a>
+    </div>
+
+    <div class="contact">
+      <a href="https://www.linkedin.com/in/tedbreen" target="_blank"><img src="images/linkedin-icon.png"></a>
+    </div>
+
+    <div class="contact">
+      <a href="https://github.com/tedbreen" target="_blank"><img src="images/github-icon.png"></a>
+    </div>
   </div>
+
   <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
   <script type="text/javascript">
     $.noConflict();
   </script>
   <script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-55642674-1', 'auto');
-  ga('send', 'pageview');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-55642674-1', 'auto');
+    ga('send', 'pageview');
   </script>
   <script type="text/javascript" src="js/doc_ready.js"></script>
+
 </body>
 </html>
+
