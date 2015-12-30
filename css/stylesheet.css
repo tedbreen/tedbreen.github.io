@@ -12,28 +12,28 @@ html, body, ul {
   width: 100%;
 }
 
-nav {
+.nav {
   position: fixed;
   background-color: white;
   z-index: 100;
   width: 100%;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
-nav ul {
+.nav ul {
   list-style-type: none;
   font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
 
-nav li {
+.nav li {
   display: inline-block;
   text-align: center;
 }
 
-nav a {
+.nav a {
   display: block;
   text-decoration: none;
   padding: 10px;
@@ -69,6 +69,10 @@ nav a {
 
 .wide-only {
   display: none;
+}
+
+.list li {
+  margin-bottom: 6px;
 }
 
 /*this query is for the underwater sea photo*/
