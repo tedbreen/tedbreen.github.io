@@ -54,6 +54,7 @@ html, body, ul {
 
 .contact {
   margin: 10px;
+  flex: 0 0 auto;
 }
 
 .list {
