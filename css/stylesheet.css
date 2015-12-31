@@ -1,15 +1,10 @@
 @import "./text.css";
-@import "./image-words.css";
 
 html, body, ul {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-.standard-width {
-  width: 100%;
 }
 
 .nav {
@@ -19,6 +14,7 @@ html, body, ul {
   width: 100%;
   text-align: center;
   padding: 20px 0;
+  box-shadow: 0px 2px 2px #C1C5C8;
 }
 
 .nav ul {
@@ -39,56 +35,35 @@ html, body, ul {
   padding: 10px;
 }
 
-.content {
-  padding-top: 43px;
+.spacer {
+  height: 84px;
 }
 
-.content ul {
-  padding-left: 20px;
+.container {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 20px;
 }
 
-/*HOME/TED link in nav bar*/
-.text-white.background-orange:hover {
-  color: yellow;
-}
-
-.medium-wide-screen {
-  display: none;
-  position: relative;
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contact {
-  display: inline-block;
-  padding-bottom: 25px;
-  padding-right: 25px;
+  margin: 10px;
 }
 
-.content.standard-width:last-of-type {
-  padding-bottom: 150px;
-}
-
-.wide-only {
-  display: none;
+.list {
+  padding-left: 20px;
 }
 
 .list li {
   margin-bottom: 6px;
 }
 
-/*this query is for the underwater sea photo*/
-@media (min-width: 641px) {
-  .medium-wide-screen {
-    display: block;
-  }
-}
-
-@media (min-width: 800px) {
-  .wide-screen {
-    display: block;
-  }
-
-  .standard-width {
-    max-width: 800px;
-    margin: 0px auto;
-  }
+.heading {
+  text-align: center;
 }
