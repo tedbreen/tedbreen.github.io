@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/tedbreen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tedbreen.com
+  * I am tedbreen (https://keybase.io/tedbreen) on keybase.
+  * I have a public key ASCzoVGptxNshXomW34-bDBILcIl0EUy4dOt-WGQMeFaqwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101035c459cc2348b6b2bad975eeb45062711853355da2d6160c9c2f7c1221d4e9e0a",
+            "host": "keybase.io",
+            "kid": "0120b3a151a9b7136c857a265b7e3e6c30482dc225d04532e1d3adf9619031e15aab0a",
+            "uid": "b7ba63775c65428cfbed73596962f019",
+            "username": "tedbreen"
+        },
+        "service": {
+            "hostname": "tedbreen.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1458760066,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458759976,
+        "hash": "2bbd7004d15d3da3dc4a07c031768e88b5c514fdeb5076232e6be56b97a48ad3255fa3c32abf211f01b1d58d5f21dd1b4b7b56d5382610a8c9e1141e1d053b4d",
+        "seqno": 419719
+    },
+    "prev": "c35a154c965b580fd32293c4e9075b8f23e97ec8297a965bd48451d275e612f4",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgs6FRqbcTbIV6Jlt+PmwwSC3CJdBFMuHTrflhkDHhWqsKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDM1YzQ1OWNjMjM0OGI2YjJiYWQ5NzVlZWI0NTA2MjcxMTg1MzM1NWRhMmQ2MTYwYzljMmY3YzEyMjFkNGU5ZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjNhMTUxYTliNzEzNmM4NTdhMjY1YjdlM2U2YzMwNDgyZGMyMjVkMDQ1MzJlMWQzYWRmOTYxOTAzMWUxNWFhYjBhIiwidWlkIjoiYjdiYTYzNzc1YzY1NDI4Y2ZiZWQ3MzU5Njk2MmYwMTkiLCJ1c2VybmFtZSI6InRlZGJyZWVuIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ0ZWRicmVlbi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE0In0sImN0aW1lIjoxNDU4NzYwMDY2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NTg3NTk5NzYsImhhc2giOiIyYmJkNzAwNGQxNWQzZGEzZGM0YTA3YzAzMTc2OGU4OGI1YzUxNGZkZWI1MDc2MjMyZTZiZTU2Yjk3YTQ4YWQzMjU1ZmEzYzMyYWJmMjExZjAxYjFkNThkNWYyMWRkMWI0YjdiNTZkNTM4MjYxMGE4YzllMTE0MWUxZDA1M2I0ZCIsInNlcW5vIjo0MTk3MTl9LCJwcmV2IjoiYzM1YTE1NGM5NjViNTgwZmQzMjI5M2M0ZTkwNzViOGYyM2U5N2VjODI5N2E5NjViZDQ4NDUxZDI3NWU2MTJmNCIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDLCDwNYXa7dOVLLyZXhEtREvSftaI7nnJIdlPns9DONXmWVkUA6bCuSDfF/lX/HxkOm3Juvb3poeI1H9wWjSAqoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tedbreen
+
+==================================================================
